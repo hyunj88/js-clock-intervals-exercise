@@ -10,10 +10,6 @@ h1 {
     justify-content: center
 }
 
-#clock img {
-    
-}
-
 #hour {
     position: absolute;
     transform: rotate(90deg);

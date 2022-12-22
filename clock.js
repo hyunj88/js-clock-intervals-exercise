@@ -12,3 +12,4 @@ setInterval(() => {
     minutesHand.style.transform = `rotate(${6 * minutes}deg)`
     secondsHand.style.transform = `rotate(${6 * seconds}deg)`
 }, 1000)
+
