@@ -1,14 +1,38 @@
+h1 {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif
+}
+
 #clock {
+    display: flex;
+    margin: 400px 0 0 0;
+    align-items: center;
+    justify-content: center
 }
 
 #clock img {
+    
 }
 
 #hour {
+    position: absolute;
+    transform: rotate(90deg);
+    transform-origin: (0% 100%)
 }
 
 #minute {
+    position: absolute;
+    transform: rotate(90deg);
+    transform-origin: (0%, 100%)
+
 }
 
 #second {
+    position: absolute;
+    transform: rotate(90deg);
+    transform-origin: (0%, 100%)
+}
+
+#face {
+    position: absolute
 }
